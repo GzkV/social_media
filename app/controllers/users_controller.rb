@@ -4,7 +4,8 @@ class UsersController < ApplicationController
     @user = User.find( params[:id] )
   end
   
-  def index
-  
-  end
+ def index
+  @users = User.includes(:profile)
+ end
+
 end
