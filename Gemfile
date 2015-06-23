@@ -40,7 +40,8 @@ gem 'spring',        group: :development
 gem 'stripe', '1.16.1'
 #use figaro to hide secret keys
 gem 'figaro', '1.0.0'
- 
+ #use paperclip for profile images
+ gem 'paperclip', '4.2.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
